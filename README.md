@@ -1,5 +1,5 @@
 # Data-X-Everybody-DUNK-Now
-
+This project was made by Marikita Marinaki, Brandon Berookhim, Echo Hansen, Jenny Sokolsky and Emma Leiner, with mentorship from Panna Felsen. <br />
 The main code is divided in the "notebook" section.<br />
 This is an adaption of "Everybody Dance Now" :<br /><br />
 
