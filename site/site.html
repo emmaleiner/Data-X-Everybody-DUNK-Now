@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data X</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+  <!-- <link rel='shortcut icon' type='image/png' href='./assets/img/favicon1.png'/> -->
+  <link rel='stylesheet' href='css/materialize.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo" style="left: 20px;">Everybody DUNK Now!</a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div class="container">
+  <div class="section">
+    <div class="row valign-wrapper">
+      <div class="col s8">
+        <video id="video" class="z-depth-1" autoplay muted width="100%" style="transform: scaleX(-1); border-radius: 20px;">
+            <source id="vsrc" src="" type="video/mp4">
+        </video>
+      </div>
+      <div class="col s4">
+        <img id="selpic" style="margin-left: -125px; border-radius: 20px;" width="150%" src="">
+      </div>
+<!--       <div class="col s6">
+        <video class="z-depth-1" autoplay="true" width="100%" style="transform: scaleX(-1); border-radius: 20px;"></video>
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col s3"></div>
+      <div class="col s2">
+        <a id="record" class="waves-effect waves-light btn red scale-transition"><i class="material-icons left">play_circle_filled</i>record</a>
+      </div>
+      <div class="col s3"></div>
+      <div class="col s1"></div>
+      <div class="col s2">
+        <a id="go-btn" href="computed.html" class="waves-effect waves-light btn blue scale-transition scale-out">dunk now!</a>
+      </div>
+      <div class="col s1"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="row">
+      <div class="col s2"></div>
+      <div class="col s7 z-depth-1" style="border-radius: 10px;">
+        <input id="search-in" type="text" placeholder="search for a player...">
+      </div>
+      <div class="col s1">
+        <a id="search-btn" class="waves-effect waves-light btn-large" style="border-radius: 10px;"><i class="material-icons">search</i></a>
+      </div>
+      <div class="col s2"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="row" id="pics">
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet@0.2.3"></script> -->
+
+</html>

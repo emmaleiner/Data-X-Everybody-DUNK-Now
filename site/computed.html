@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data X</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+  <!-- <link rel='shortcut icon' type='image/png' href='./assets/img/favicon1.png'/> -->
+  <link rel='stylesheet' href='css/materialize.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo" style="left: 20px;">Everybody DUNK Now!</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="site.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div class="container">
+  <div id="loader" class="section">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <h4 class="center-align">Please wait a moment while we turn you into your favorite player</h4>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <h5 id="prog-text" class="center-align">computing source poses...</h5>
+    <div class="row">
+      <div class="progress col s8 push-s2">
+        <div id="prog-prog" class="determinate" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+  <div id="finished" class="section" style="display: none;">
+    <div class="row"></div>
+    <div class="row"></div>
+    <h4 class="center-align" style="margin-bottom: 0; padding-bottom: 0;">Finished!</h5>
+    <div class="col s12 center-align">
+      <img src="assets/output.gif"/>
+    </div>
+    <div class="col s12 center-align">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank" id="dl-btn" class="waves-effect waves-light btn" style="margin-top: -150px;"><i class="material-icons left">share</i>share</a>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/computed.js"></script>
+
+</html>
